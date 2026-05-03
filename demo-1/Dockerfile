@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk-alpine 
+FROM eclipse-temurin:11-jre AS build
 
 COPY target/demo-1-0.0.1-SNAPSHOT.jar app.jar 
 
